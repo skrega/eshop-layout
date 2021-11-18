@@ -1,0 +1,135 @@
+.cart-content
+    padding-top: 96px
+    padding-bottom: 128px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+
+.cart-product
+    width: 657px
+
+.cart
+    display: flex
+    background-color: #fff
+    //filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13))
+    position: relative
+    &_mb
+        margin-bottom: 40px
+    &__heading
+        font-weight: 400
+        font-size: 24px
+        line-height: 24px
+        color: #222222
+        width: 210px
+        margin-bottom: 42px
+    &__content
+        padding: 22px 22px 31px 31px
+    &__text
+        font-size: 22px
+        line-height: 26px
+        color: #575757
+        font-weight: 400
+        margin-bottom: 6px
+        input
+            margin-left: 24px
+            border: 1px solid #EAEAEA
+        span
+            color: #6F6E6E
+    &__price span
+        color: #EF5B70
+    &-buttons
+        display: flex
+        justify-content: space-between
+    &__close
+        position: absolute
+        right: 22px
+        top: 28px
+        cursor: pointer
+        transition: all .3s
+        &:hover
+            transform: rotate(90deg)
+.shipping
+    max-width: 360px
+    width: 100%
+    &__heading
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        color: #222222
+        margin-bottom: 20px
+    &__input
+        width: 100%
+        margin-bottom: 20px
+    &__btn
+        margin-bottom: 57px
+
+.total
+    background: #F5F3F3
+    padding: 39px 44px 42px 44px
+    &__subheading
+        font-weight: normal
+        font-size: 11px
+        line-height: 13px
+        color: #4A4A4A
+        min-width: 108px
+        width: 5%
+
+    &__heading
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        color: #222222
+        min-width: 170px
+        width: 5%
+        margin-top: 12px
+        margin-bottom: 38px
+
+    &__heading,
+    &__subheading
+        display: flex
+        justify-content: space-between
+        margin-left: auto
+
+    &__heading-color
+        font-weight: 400
+        color: #F16D7F
+    &__btn
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            background-color: #E2E2E2
+            height: 1px
+            left: 0
+            width: 100%
+            top: -18px
+
+.header-cart__img
+    width: 130px
+    height: 140px
+
+.cart-item
+
+.header
+    &__cart
+        position: relative
+    &-cart-product
+        width: 320px
+        background-color: #fff
+        position: absolute
+        top: 55px
+        right: -160px
+        z-index: 1
+    &-cart__content
+        padding: 21px 21px 0px 11px
+    &-cart__heading
+        font-size: 20px
+        line-height: 24px
+        font-weight: 500
+        margin-bottom: 12px
+    &-cart__text
+        font-size: 15px
+        line-height: 18px
+        color: #575757
+        font-weight: 400
+        margin-bottom: 6px
